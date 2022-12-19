@@ -17,7 +17,6 @@ from tensorflow.keras.layers import concatenate
 
 import numpy as np
 import math
-import matplotlib.pyplot as plt
 import os
 
 def generator(inputs,
