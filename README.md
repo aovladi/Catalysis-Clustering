@@ -11,5 +11,7 @@ The main code for this stage is the following:
 -  `wgan-ov.py` contains training and generation procedures for ovarian somatic mutation profiles
 -  `requirements.txt` contains the list of requirements for this code
     - You can install requirements all together with: `pip install -r requirements.txt` 
+- It requires preprocessed mutation profiles as an input, e.g. `wgan-ov.py` line 118: `x_train = np.load("ov_genes_converted.npy");`
+    - This should be changed to accomodate the dataset, which will be used with this code
 
 ## Evaluation
