@@ -25,7 +25,7 @@ After all requirements are installed:
 
 `evaluation` foldercontains R code for survival analysis and SVM measure computation, which results were presented in the paper:
 - `lung_cluster_evaluation.R` contains sample code for analysing only one file with survival information and clustering assignment
-- `ov__cluster_evaluation.R` contains sample code for analysing a set of files with survival information and clustering assignment
+- `ov_cluster_evaluation.R` contains sample code for analysing a set of files with survival information and clustering assignment
     - User is required to specify paths to folder, containing survival info and folders where to store images and R data
 - Please refer to [R Project](https://www.r-project.org/) for further assistance with an R code
 
