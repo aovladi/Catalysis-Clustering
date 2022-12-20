@@ -22,8 +22,9 @@ After all requirements are installed:
 3.Run `python wgan-*.py -g <PATH/TO/GENERATOR/WEIGHTS>` to generate synthetic data, where `*` is either `luad` or `ov`
 
 ## Evaluation
+Please note: this code is for the task of clustering evaluation through survival analysis and SCM measure, described in the paper.
 
-`evaluation` foldercontains R code for survival analysis and SVM measure computation, which results were presented in the paper:
+`evaluation` folder contains R code for survival analysis and SCM measure computation, which results were presented in the paper:
 - `lung_cluster_evaluation.R` contains sample code for analysing only one file with survival information and clustering assignment
 - `ov_cluster_evaluation.R` contains sample code for analysing a set of files with survival information and clustering assignment
     - User is required to specify paths to folder, containing survival info and folders where to store images and R data
