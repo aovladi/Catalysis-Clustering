@@ -17,7 +17,7 @@ The main code for this stage is the following:
 ### Usage
 
 After all requirements are installed:
-1. Add `"ov_genes_converted.npy"` or `"luad_genes_converted.npy"` to this folder
+1. Add `"ov_genes_converted.npy"` or `"luad_genes_converted.npy"` to the same folder with `python wgan-*.py`, where `*` is either `luad` or `ov`
 2. Run `python wgan-*.py` to train WGAN, where `*` is either `luad` or `ov`
 3.Run `python wgan-*.py -g <PATH/TO/GENERATOR/WEIGHTS>` to generate synthetic data, where `*` is either `luad` or `ov`
 
