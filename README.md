@@ -14,6 +14,13 @@ The main code for this stage is the following:
 - It requires preprocessed mutation profiles as an input, e.g. `wgan-ov.py` line 118: `x_train = np.load("ov_genes_converted.npy");`
     - This should be changed to accomodate the dataset, which will be used with this code
 
+### Usage
+
+After all requirements are installed:
+1. Add `"ov_genes_converted.npy"` or `"luad_genes_converted.npy"` to this folder
+2. Run `python wgan-*.py` to train WGAN, where `*` is either `luad` or `ov`
+3.Run `python wgan-*.py -g <PATH/TO/GENERATOR/WEIGHTS>` to generate synthetic data, where `*` is either `luad` or `ov`
+
 ## Evaluation
 
 `evaluation` foldercontains R code for survival analysis and SVM measure computation, which results were presented in the paper:
